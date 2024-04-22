@@ -57,12 +57,23 @@ const typed= new Typed('.multiple-text',{
 })
 /*-------email-*/
 function sendMail(){
+
+    var name=document.getElementById("name").value;
+    var address=document.getElementById("email").value;
+    var mobile=document.getElementById("mobile").value;
+    var subject=document.getElementById("subject").value;
+    var message=document.getElementById("message").value;
+    if (name == "" ||address == ""||mobile == ""||subject == ""||message == "" ){
+        alert("Please fill in the missing blank.")
+        return;
+    }
+
     var params={
-        name:document.getElementById("name").value,
-        address:document.getElementById("email").value,
-        mobile:document.getElementById("mobile").value,
-        subject:document.getElementById("subject").value,
-        message:document.getElementById("message").value,
+        name:name,
+        address:address,
+        mobile:mobile,
+        subject:subject,
+        message:message,
     };
     const serviceID="service_2ytq6wa";
     const templateID="template_ymvt4rr";
