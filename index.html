@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+<!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio - IVAN CHAN Tsz Fung </title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "iaGwVTiK9Ql5rD0jF",
+        });
+    })();
+    </script>
+</head>
+<body>
+    <!---header-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!--HOME SECTION DESIGN-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3> HI, myself</h3>
+            <h1>Ivan Chan</h1>
+            <h3> And I'm a <span class="multiple-text"></span></h3>
+            <p>Computer Science undergraduate with a strong background in python, java, and web development. Able to pick up any skills in a short period of time. I am enthsiatic about data analytics and machine learning. During my studies in university, I have received scholorships and was placed on the dean list multiple times. I strongly believe in "life-long learning" and "great work can only be driven by passion."
+
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/IvanENERGY">  <i class="fa-brands fa-github"></i>              </a>
+                <a href="https://www.linkedin.com/in/tsz-fung-chan-ivan/">    <i class="fa-brands fa-linkedin"></i>           </a>
+            </div> 
+            <a href="#" class="btn">Download CV</a>
+        </div>
+       
+        
+        <div class="home-img">
+            <img src="img/IMG_0444.jpeg" alt="">
+        </div>
+
+
+        
+
+    </section>
+
+ <!--HOME SECTION DESIGN-->
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/IMG_0444.jpeg" alt="">
+
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT<span>Me</span></h2>
+            <h3>Master Student in Data Science</h3>
+            <p>
+            I obtained my Bachelor degree in Computer Science from City University of Hong Kong in 2024. Currently, I am pursuring Master in Data Science. I am looking forward to apply any skillsets I have learnt into real-word practice!
+            </p>
+            <a href="#" class="btn">Read more</a>
+        </div>  
+    </section>
+
+
+    <!--SERVICE SECTION-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Data Analytics</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at semper dui. Pellentesque non dapibus orci, sit amet sollicitudin lectus. Cras egestas posuere quam, sit amet ullamcorper tellus pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam nec nibh id lacus fermentum aliquam. Praesent pharetra mi nisi, et venenatis odio maximus quis. Aliquam erat volutpat. Vestibulum vulputate purus nunc, eu viverra dui pellentesque eu. Morbi sodales a felis a pellentesque. Sed volutpat ac nisl ut feugiat. Duis elementum ex sed ipsum euismod, ut condimentum eros varius. Phasellus eu tincidunt nunc.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <i class="fa-brands fa-js"></i>
+                <h3>FullStack Android Application Development (Java+NodeJS)</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at semper dui. Pellentesque non dapibus orci, sit amet sollicitudin lectus. Cras egestas posuere quam, sit amet ullamcorper tellus pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam nec nibh id lacus fermentum aliquam. Praesent pharetra mi nisi, et venenatis odio maximus quis. Aliquam erat volutpat. Vestibulum vulputate purus nunc, eu viverra dui pellentesque eu. Morbi sodales a felis a pellentesque. Sed volutpat ac nisl ut feugiat. Duis elementum ex sed ipsum euismod, ut condimentum eros varius. Phasellus eu tincidunt nunc.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+  
+
+        </div>
+
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <a href="https://github.com/IvanENERGY/Study-on-Hierarchical-Clustering">
+                    <img src="img/hierarchical.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Study on hierarchical clustering</h4>
+                        <p>This project implements hierarchical clustering on the wine dataset. It foucuses on studying the differences in hierarchical stuctures generated using single link, complete link and group average. We also make comparison with the clusters formed using k-means and the clusters formed using subset of attributes.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://github.com/IvanENERGY/YouTubeSpamClassifier/tree/main">
+                    <img src="img/utubespam.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>YouTube Spam Classifier</h4>
+                        <p>This project adopts different methods in classifying spam comments, which includes Logistic Regression Model,Recurrent Neural Network (LSTM), K-nearest neighbor, Decision Tree Classifier and Support Vector Machine (SVM)  </p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-box">
+                <a href="https://github.com/IvanENERGY/LMS_android">
+                    <img src="img/Library Management System.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Library Management System</h4>
+                        <p>This is a full-stack application built using Java as frontend and nodeJS as backend.On the other hand, the database is built in MS SQL Server. This application simulates the daily borrowing and return process of library transactions.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/Library Management System.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at semper dui. Pellentesque non dapibus orci, sit amet sollicitudin lectus. Cras egestas posuere quam, sit amet ullamcorper tellus pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam nec nibh id lacus fermentum aliquam. Praesent pharetra mi nisi, et venenatis odio maximus quis. Aliquam erat volutpat. Vestibulum vulputate purus nunc, eu viverra dui pellentesque eu. Morbi sodales a felis a pellentesque. Sed volutpat ac nisl ut feugiat. Duis elementum ex sed ipsum euismod, ut condimentum eros varius. Phasellus eu tincidunt nunc.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/Library Management System.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at semper dui. Pellentesque non dapibus orci, sit amet sollicitudin lectus. Cras egestas posuere quam, sit amet ullamcorper tellus pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam nec nibh id lacus fermentum aliquam. Praesent pharetra mi nisi, et venenatis odio maximus quis. Aliquam erat volutpat. Vestibulum vulputate purus nunc, eu viverra dui pellentesque eu. Morbi sodales a felis a pellentesque. Sed volutpat ac nisl ut feugiat. Duis elementum ex sed ipsum euismod, ut condimentum eros varius. Phasellus eu tincidunt nunc.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/Library Management System.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at semper dui. Pellentesque non dapibus orci, sit amet sollicitudin lectus. Cras egestas posuere quam, sit amet ullamcorper tellus pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam nec nibh id lacus fermentum aliquam. Praesent pharetra mi nisi, et venenatis odio maximus quis. Aliquam erat volutpat. Vestibulum vulputate purus nunc, eu viverra dui pellentesque eu. Morbi sodales a felis a pellentesque. Sed volutpat ac nisl ut feugiat. Duis elementum ex sed ipsum euismod, ut condimentum eros varius. Phasellus eu tincidunt nunc.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+    <!--CONTACT-->
+    <section class="contact" id="contact">
+        <h2 class="heading" >Contact<span>Me</span> </h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" id="mobile" placeholder="Mobile Number">
+                <input type="text" id="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn" onclick="sendMail()">
+        </form>
+    </section>
+
+<!--footer-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by IvanCTF | All Rights Reserved. </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+
+        </div>
+    
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
