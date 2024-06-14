@@ -456,3 +456,10 @@ span{
 .skills-container{
     margin:40px
 }
+.skills-type{
+
+    color: white;
+}
+.skills-icon{
+    width: 10%;
+}
