@@ -49,7 +49,7 @@ ScrollReveal().reveal('.home-contact p, .about-content',   {origin:'left'});
 
 /*---------------TypeJSs----------------------*/
 const typed= new Typed('.multiple-text',{
-    strings: [' Computer Science graduate'],
+    strings: [' Computer Science graduate','Web Developer'],
     typeSpeed:70,
     backSpeed:70,
     backDelay:1000,
