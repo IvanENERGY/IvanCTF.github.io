@@ -51,7 +51,7 @@ ScrollReveal().reveal('.home-contact p, .about-content',   {origin:'left'});
 const typed= new Typed('.multiple-text',{
     strings: [' Computer Science graduate','Full-stack Web Developer','Full-stack Mobile App Developer'],
     typeSpeed:70,
-    backSpeed:70,
+    backSpeed:50,
     backDelay:1000,
     loop:true
 })
