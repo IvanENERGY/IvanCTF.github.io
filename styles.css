@@ -51,6 +51,10 @@ section{
     color: var(--text-color);
     font-weight: 700;
     cursor:default;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 
 }
 
@@ -478,4 +482,5 @@ width: 20%;
 #logoimg{
     width: 10%;
     margin-right: 10px;
+    display: inline-block;
 }
