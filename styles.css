@@ -11,9 +11,10 @@
 }
 
 :root {
-
-    --bg-color: #191f36;
-    --snd-bg-color: #262B40;
+    /* #191f36 */
+    /* #262B40 */
+    --bg-color: #1a1936;
+    --snd-bg-color: #262640;
     --text-color: #fff;
     --main-color: #59B2F4;
 }
