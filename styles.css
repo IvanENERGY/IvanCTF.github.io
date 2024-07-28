@@ -485,3 +485,11 @@ span{
     margin-right: 10px;
 
 }
+.project-title{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.project-desc{
+    color: blue;
+}
